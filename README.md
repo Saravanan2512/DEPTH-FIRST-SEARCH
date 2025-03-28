@@ -98,7 +98,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-```
 ## OUTPUT:
 ![Screenshot 2025-03-28 151609](https://github.com/user-attachments/assets/440d4256-a19a-4d10-9d7d-d3a701ad0065)
 
