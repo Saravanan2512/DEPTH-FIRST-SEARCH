@@ -1,7 +1,7 @@
 # BREADTH-FIRST-SEARCH
 <h1>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name: SARAVANAN G </h3>
-<h3>Register Number:212223230194 </h3>
+<h3>Name: SARAVANAN G  </h3>
+<h3>Register Number: 212223230194 </h3>
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -67,7 +67,9 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 <li>Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.</li>
 
 </ol>
-## PROGRAM:
+
+
+## Program
 ```
 from collections import defaultdict, deque
 
@@ -98,15 +100,9 @@ def main():
 if __name__ == "__main__":
     main()
 
-``
+```
+## Input
 
-
-## OUTPUT:
-![Screenshot 2025-03-28 151609](https://github.com/user-attachments/assets/440d4256-a19a-4d10-9d7d-d3a701ad0065)
-
-<hr>
-<h3>Sample Input</h3>
-<hr>
 7 9 <BR>
 A B <BR>
 A C <BR>
@@ -117,29 +113,14 @@ C D <BR>
 D E <BR>
 D G <BR>
 G F <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['A', 'B', 'C', 'F', 'E', 'D', 'G']
 
-<hr>
+## Output
+![Screenshot 2025-03-28 151609](https://github.com/user-attachments/assets/331a9bac-3a6b-4d06-8284-ac911f2c1eb8)
 
-<hr>
-<h3>Sample Input</h3>
-<hr>
-5 6 <BR>
-0 1 <BR>
-0 2 <BR>
-1 2 <BR>
-1 3 <BR>
-2 4 <BR>
-3 4 <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['0', '1', '2', '3', '4']
-<hr>
-<h3>Result:</h3>
+
+
+
+<h3>Result:
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
 
